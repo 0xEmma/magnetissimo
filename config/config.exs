@@ -13,7 +13,7 @@ config :magnetissimo,
 
 # Configures the endpoint
 config :magnetissimo, MagnetissimoWeb.Endpoint,
-  url: [host: "magnet.0xem.ma"],
+  url: [host: "localhost:16736"],
   render_errors: [
     formats: [html: MagnetissimoWeb.ErrorHTML, json: MagnetissimoWeb.ErrorJSON],
     layout: false
